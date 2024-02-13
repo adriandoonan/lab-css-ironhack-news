@@ -6,11 +6,10 @@
   <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-css-ironhack-news/06-finished-lab.gif" width="600px" alt="finished lab preview" />
 </p>
 
+## clone
+
 <p align="center">
-    <video width="320" height="240" controls>
-      <source src="responsive-attempt.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
+  <img src="responsive-attempt-ezgif.com-video-to-gif-converter.gif" width="600px" alt="finished lab preview" />
 </p>
 
 <details>
