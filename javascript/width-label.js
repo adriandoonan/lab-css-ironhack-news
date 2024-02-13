@@ -11,3 +11,16 @@ window.addEventListener("resize", () => {
   // Set the text of the element to show the viewport width
   viewportDimensions.innerHTML = `Viewport Width: <b>${width}px</b>`;
 });
+
+const hamburgerButton = document.querySelector('.hamburger-button')
+const navMenu = document.querySelector('.navbar')
+
+hamburgerButton.addEventListener('click', function() { 
+  console.log('clicked')
+  //hamburgerFunction()
+  navMenu.classList.toggle('hidden')
+})
+
+const hamburgerFunction = () => {
+  navMenu.style.display = navMenu.style.display === '' || navMenu.style.display === 'none' ? 'flex' : 'none'
+}
